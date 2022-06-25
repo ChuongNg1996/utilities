@@ -23,6 +23,7 @@ int main(int argc, char const* argv[])
  
     // Convert IPv4 and IPv6 addresses from text to binary
     // form
+    // 127.0.0.1 is "loopback" address - localhost - point to current PC
     if (inet_pton(AF_INET, "127.0.0.1", &serv_addr.sin_addr)
         <= 0) {
         printf(

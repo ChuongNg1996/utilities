@@ -12,7 +12,7 @@
 
 * single-server-multiple-client: 
 
-  [geeksforgeeks]([https://www.geeksforgeeks.org/socket-programming-cc/?ref=lbp](https://www.geeksforgeeks.org/socket-programming-in-cc-handling-multiple-clients-on-server-without-multi-threading/?ref=lbp): multithreading is not scalable with large clients -> use **select()** linux command.
+  [geeksforgeeks](https://www.geeksforgeeks.org/socket-programming-in-cc-handling-multiple-clients-on-server-without-multi-threading/?ref=lbp): multithreading is not scalable with large clients -> use **select()** linux command.
   
   ```sh
   gcc server_1.cpp -o server_1

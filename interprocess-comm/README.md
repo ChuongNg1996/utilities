@@ -22,3 +22,14 @@
   telnet localhost 8888 #ON TERMINAL 4
   ```
 
+* NamedPipe_FIFO
+  [geeksforgeeks](https://www.geeksforgeeks.org/named-pipe-fifo-example-c-program/): a named pipe appears as a **file** and generally processes attach to it for inter-process communication. A **FIFO file** is a special kind of **file** on the local storage which allows two or more processes to communicate with each other by reading/writing to/from this **file**.
+
+  ```sh
+  gcc program_1.cpp -o program_1
+  gcc program_2.cpp -o program_2
+  ./program_1 #ON TERMINAL 1
+  ./program_2 #ON TERMINAL 2
+  Hello #ON TERMINAL 1
+  Hi #ON TERMINAL 2
+  ```

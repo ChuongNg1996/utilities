@@ -47,7 +47,7 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
   ```
   The result on PC1 should shows `Welcome to Ubuntu 20.04...` which is PC2.
   
-  # Going Public
+  # Going External
   
   ## ngrok
   source: [linuxhint](https://linuxhint.com/public_ip_address_ngrok_ssh_tunneling/)

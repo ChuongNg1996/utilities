@@ -64,12 +64,12 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
   ```
   The result on PC1 should shows `Welcome to Ubuntu 20.04...` which is PC2.
   
-  ## Teleport
+## Teleport
   * Descendants of `teleconsole`, [website](https://goteleport.com/).
   
-  # Others
+# Others
   
-  ## ngrok
+## ngrok
   source: [linuxhint](https://linuxhint.com/public_ip_address_ngrok_ssh_tunneling/)
   
   Open web service with `server_1.py`, [source](https://www.tutorialspoint.com/python/python_networking.htm), then run `ngrok`

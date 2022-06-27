@@ -2,7 +2,7 @@
 
 ## SSH Tunneling: LAN only example
 Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-server-linux-or-windows), [phoenixnap.com-2](https://phoenixnap.com/kb/ssh-port-forwarding)
-* My setup: 2 PCs/Laptops, one uses Ubuntu 18.04, one uses Ubuntu 20.04.
+* My setup: 2 PCs/Laptops, one uses Ubuntu 18.04 (called PC1), one uses Ubuntu 20.04 (called PC2).
 * Each PC/Laptop can be either server or client. Firstly, install both `OpenSSH Client` and `OpenSSH Server` on both (it's possible that both are already installed):
   ```sh
   sudo apt-get update
@@ -18,9 +18,14 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
 * For further configuration, use `sudo nano /etc/ssh/sshd_config` then need to restart `sudo service ssh restart`.
 * Register both devices to the Network by `ssh your_username@host_ip_address` where `your_username` and `host_ip_address` is exclusive. For example:
 
-  My PC running Ubuntu 18.04 with `chuong` as username, so `your_username` is `chuong`. Next, my IP Address on the LAN Network (use `ifconfig` to show) is `192.168.0.118`, so `host_ip_address` is `192.168.0.118`. So `ssh your_username@host_ip_address` becomes `ssh chuong@192.168.0.118` -> yes to create.
+  PC1 has `chuong` as username, so `your_username` is `chuong`. Next, my IP Address on the LAN Network (use `ifconfig` to show) is `192.168.0.118`, so `host_ip_address` is `192.168.0.118`. So `ssh your_username@host_ip_address` becomes `ssh chuong@192.168.0.118` -> yes to create.
   
   
-  My PC running Ubuntu 20.04 with `chuong` as username, so `your_username` is `chuong`. Next, my IP Address on the LAN Network (use `ifconfig` to show) is `192.168.0.108`, so `host_ip_address` is `192.168.0.108`. So `ssh your_username@host_ip_address` becomes `ssh chuong@192.168.0.108` -> yes to create.
+  PC2 has `chuong` as username, so `your_username` is `chuong`. Next, my IP Address on the LAN Network (use `ifconfig` to show) is `192.168.0.108`, so `host_ip_address` is `192.168.0.108`. So `ssh your_username@host_ip_address` becomes `ssh chuong@192.168.0.108` -> yes to create.
   
-* 
+* Quick Test with Local Port Forwarding. 
+  ```sh
+  ssh -L local_port:destination_server_ip:remote_port ssh_server_hostname
+  ```
+  means "port `local_port` on the local client is being forwarded to port `remote_port` of the destination remote server (with `ssh_server_hostname` is ssh your_username@host_ip_address)
+  

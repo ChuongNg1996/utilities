@@ -16,4 +16,6 @@ Source: [phoenixnap.com](https://phoenixnap.com/kb/ssh-to-connect-to-remote-serv
   ssh localhost # for OpenSSH Server
   ```
 * For further configuration, use `sudo nano /etc/ssh/sshd_config` then need to restart `sudo service ssh restart`.
-* 
+* Register both devices to the Network by `ssh your_username@host_ip_address` where `your_username` and `host_ip_address` is exclusive. For example:
+
+  My PC running Ubuntu 18.04 with `chuong` as username, so `your_username` is `chuong`. Next, my IP Address on the LAN Network (use `ifconfig` to show) is `192.168.0.118`, so `host_ip_address` is `192.168.0.118`. So `ssh your_username@host_ip_address` becomes `ssh chuong@192.168.0.118`

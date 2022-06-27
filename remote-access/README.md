@@ -47,7 +47,15 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
   ```
   The result on PC1 should shows `Welcome to Ubuntu 20.04...` which is PC2.
   
-  # Getting Public IP
+  # Going Public Internet
   
   ## Ngrok
   source: [linuxhint](https://linuxhint.com/public_ip_address_ngrok_ssh_tunneling/)
+  Open web service with `server_1.py`, [source](https://www.tutorialspoint.com/python/python_networking.htm), then run ngrok
+    ```sh
+    sudo chmod +x server_1.py
+    python server_1.py
+    snap install ngrok
+    ngrok http 5000
+    ```
+  

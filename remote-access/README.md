@@ -80,4 +80,5 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
     ngrok http 5000
     ```
 
- 
+ ## Waveshare sim7600G-H Dongle
+  * Source: 

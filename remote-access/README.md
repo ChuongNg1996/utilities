@@ -1,7 +1,7 @@
 # SSH Tunneling
 
 ## tmate
-* Found from [this](https://www.saashub.com/teleconsole-alternatives), main source [this](https://tmate.io/?utm_source=saashub&utm_medium=marketplace&utm_campaign=saashub).
+* Found from [this](https://www.saashub.com/teleconsole-alternatives), main source [this](https://tmate.io/?utm_source=saashub&utm_medium=marketplace&utm_campaign=saashub). Keyword: "Terminal Sharing"
   ```sh
   sudo apt-get update
   sudo apt-get install tmate

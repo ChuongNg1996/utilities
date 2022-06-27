@@ -51,7 +51,8 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
   
   ## ngrok
   source: [linuxhint](https://linuxhint.com/public_ip_address_ngrok_ssh_tunneling/)
-  Open web service with `server_1.py`, [source](https://www.tutorialspoint.com/python/python_networking.htm), then run ngrok
+  
+  Open web service with `server_1.py`, [source](https://www.tutorialspoint.com/python/python_networking.htm), then run `ngrok`
     ```sh
     sudo chmod +x server_1.py
     python server_1.py

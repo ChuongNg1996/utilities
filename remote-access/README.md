@@ -14,7 +14,7 @@
   ```
 * On client side:
   ```sh
-  ssh @key # e.g.: ssh A8L7TQfvRA69eDmkX3PLfAUXe@sgp1.tmate.io                
+  ssh @key # e.g.: ssh 2Ykf3JzrWHQ6ypWHpUZZ7Djjc@sgp1.tmate.io               
   ```
 
 ## LAN example with OpenSSH

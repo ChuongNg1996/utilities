@@ -1,6 +1,23 @@
 # SSH Tunneling
 
-## SSH Tunneling: LAN example
+## tmate
+* Found from [this](https://www.saashub.com/teleconsole-alternatives), main source [this](https://tmate.io/?utm_source=saashub&utm_medium=marketplace&utm_campaign=saashub).
+  ```sh
+  sudo apt-get update
+  sudo apt-get install tmate
+  ```
+* On server side:
+  ```sh
+  tmate
+  ssh-keygen -t rsa -f ~/.ssh/id_rsa # if  SSH keys not found
+  tmate show-messages # Copy & Paste the @key
+  ```
+* On client side:
+  ```sh
+  ssh @key # e.g.: ssh A8L7TQfvRA69eDmkX3PLfAUXe@sgp1.tmate.io                
+  ```
+
+## LAN example with OpenSSH
 Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-server-linux-or-windows), [phoenixnap.com-2](https://phoenixnap.com/kb/ssh-port-forwarding)
 * My setup: 2 PCs/Laptops, one uses Ubuntu 18.04 (called PC1), one uses Ubuntu 20.04 (called PC2).
 * Each PC/Laptop can be either server or client. Firstly, install both `OpenSSH Client` and `OpenSSH Server` on both (it's possible that both are already installed):

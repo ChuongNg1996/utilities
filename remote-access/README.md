@@ -27,5 +27,8 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
   ```sh
   ssh -L local_port:destination_server_ip:remote_port ssh_server_hostname
   ```
-  means "port `local_port` on the local client is being forwarded to port `remote_port` of the destination remote server (with `ssh_server_hostname` is ssh your_username@host_ip_address)
+  means "port `local_port` on the local client is being **forwarded to** port `remote_port` of the destination remote server (with `ssh_server_hostname` is `ssh your_username@host_ip_address`)
+  Thus, on PC1 (Ubuntu 18.04) (as client), to forward to PC2 (Ubuntu 20.04) (as server), use:
+  ```sh
+  ```
   

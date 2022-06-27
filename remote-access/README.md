@@ -27,8 +27,24 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
   ```sh
   ssh -L local_port:destination_server_ip:remote_port ssh_server_hostname
   ```
-  means "port `local_port` on the local client is being **forwarded to** port `remote_port` of the destination remote server (with `ssh_server_hostname` is `ssh your_username@host_ip_address`)
-  Thus, on PC1 (Ubuntu 18.04) (as client), to forward to PC2 (Ubuntu 20.04) (as server), use:
+  means "port `local_port` on the local client is being **forwarded to** port `remote_port` of the destination remote server (with `ssh_server_hostname` is `ssh your_username@host_ip_address`)".
+  
+  Thus, on PC1 (Ubuntu 18.04) (as client), to forward to PC2 (Ubuntu 20.04) (as server), i can use:
   ```sh
+  ssh -L 8011:192.168.0.108:8090 chuong@192.168.0.108
   ```
+  The result on PC1 should shows `Welcome to Ubuntu 20.04...` which is PC2.
+ 
+* Quick Test with Remote Port Forwarding.
+  ```sh
+  ssh -R remote_port:localhost:local_port ssh_server_hostname
+  ```
+  means "port `remote_port` on the remote server (with `ssh_server_hostname` is `ssh your_username@host_ip_address`) is being **forwarded to** port local_port` of the client".
+  
+  Thus, on PC1 (Ubuntu 18.04) (as client), to being forwarded to by PC2 (Ubuntu 20.04) (as server), i can use:
+  ```sh
+  ssh -R 8001:localhost:8012 chuong@192.168.0.108
+  ```
+  The result on PC1 should shows `Welcome to Ubuntu 20.04...` which is PC2.
+  
   

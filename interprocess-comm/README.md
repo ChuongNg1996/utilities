@@ -38,3 +38,11 @@
 * Shared Memory:
 
   [geeksforgeeks](https://www.geeksforgeeks.org/ipc-shared-memory/): The **problem** with **pipes, fifo and message queue** – is that for two process to exchange information. The information has to go through the **kernel**. ... A total of **four copies of data** are required (2 read and 2 write). So, shared memory provides a way by letting two or more processes share a memory segment. With **Shared Memory** the **data is only copied twice** – from input file into shared memory and from shared memory to the output file.
+  
+  ```sh
+  # Failed. Tested on Ubunttu 18.04
+  g++ writer.cpp -o writer
+  g++ reader.cpp -o reader
+  ./writer #ON TERMINAL 1
+  ./reader #ON TERMINAL 2
+  ```

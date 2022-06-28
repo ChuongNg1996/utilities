@@ -81,4 +81,4 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
     ```
 
  ## Waveshare sim7600G-H Dongle
-  * Source: [phillipdavidstearns](https://github.com/phillipdavidstearns/simcom_wwan-setup), [Issues Installing SIM7600G-H 4G for Jetson Nano](https://forums.developer.nvidia.com/t/issues-installing-sim7600g-h-4g-for-jetson-nano/129826)
+  * Source: [phillipdavidstearns](https://github.com/phillipdavidstearns/simcom_wwan-setup), [Issues Installing SIM7600G-H 4G for Jetson Nano](https://forums.developer.nvidia.com/t/issues-installing-sim7600g-h-4g-for-jetson-nano/129826), [SIM7600X 4G DONGLE (Official)](https://www.waveshare.com/wiki/SIM7600G-H_4G_DONGLE)

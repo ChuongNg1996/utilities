@@ -34,3 +34,7 @@
   Hello #ON TERMINAL 1
   Hi #ON TERMINAL 2
   ```
+
+* Shared Memory
+
+  [geeksforgeeks](https://www.geeksforgeeks.org/ipc-shared-memory/): The problem with pipes, fifo and message queue – is that for two process to exchange information. The information has to go through the kernel.

@@ -54,7 +54,7 @@
 * Commands to find devices (path):
   ```sh
   dmesg # Got "failed to send h2c command" with cheap mouse, driver issue, ended up with no clear path
-  lsusb # Quick check
+  lsusb # Quick check, device with driver issue gets no name on the left
   lsusb -v | grep '^Bus\|iSerial'# lsusb shows more detail
   usb-devices
   ls /dev/* 

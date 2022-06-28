@@ -1,4 +1,6 @@
-# Source
+# Interprocess Communication
+
+## TCP/IP, UDP/IP
 * single-server-single-client: 
 
   [geeksforgeeks](https://www.geeksforgeeks.org/socket-programming-cc/?ref=lbp)
@@ -22,7 +24,7 @@
   telnet localhost 8888 #ON TERMINAL 4
   ```
 
-* NamedPipe_FIFO:
+## NamedPipe FIFO:
 
   [geeksforgeeks](https://www.geeksforgeeks.org/named-pipe-fifo-example-c-program/): a named pipe appears as a **file** and generally processes attach to it for inter-process communication. A **FIFO file** is a special kind of **file** on the local storage which allows two or more processes to communicate with each other by reading/writing to/from this **file**.
 
@@ -35,7 +37,7 @@
   Hi #ON TERMINAL 2
   ```
 
-* Shared Memory:
+## Shared Memory:
 
   [geeksforgeeks](https://www.geeksforgeeks.org/ipc-shared-memory/): The **problem** with **pipes, fifo and message queue** – is that for two process to exchange information. The information has to go through the **kernel**. ... A total of **four copies of data** are required (2 read and 2 write). So, shared memory provides a way by letting two or more processes share a memory segment. With **Shared Memory** the **data is only copied twice** – from input file into shared memory and from shared memory to the output file.
   
@@ -45,4 +47,14 @@
   g++ reader.cpp -o reader
   ./writer #ON TERMINAL 1
   ./reader #ON TERMINAL 2
+  ```
+
+## Unix Ports
+  
+* Commands to find devices (path):
+  ```sh
+  dmesg # Got "failed to send h2c command" with cheap mouse, driver issue, ended up with no clear path
+  lsusb # Quick check
+  lsusb -v | grep '^Bus\|iSerial'# Show more detail
+  usb-devices
   ```

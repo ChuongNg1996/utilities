@@ -55,6 +55,13 @@
   ```sh
   dmesg # Got "failed to send h2c command" with cheap mouse, driver issue, ended up with no clear path
   lsusb # Quick check
-  lsusb -v | grep '^Bus\|iSerial'# Show more detail
+  lsusb -v | grep '^Bus\|iSerial'# lsusb shows more detail
   usb-devices
+  ls /dev/* 
+  df -h
+  ```
+* [Linux Serial Ports Using C/C++ (blog.mbedded.ninja)](https://blog.mbedded.ninja/programming/operating-systems/linux/linux-serial-ports-using-c-cpp/): In typical UNIX style, serial ports are represented by files within the operating system. These files usually pop-up in /dev/, and begin with the name tty*.
+  ```sh
+  gcc linux_serial_1.c -o linux_serial_1
+  ./linux_serial_1
   ```

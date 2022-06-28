@@ -57,7 +57,7 @@
   lsusb # Quick check, device with driver issue gets no name on the left
   lsusb -v | grep '^Bus\|iSerial'# lsusb shows more detail
   usb-devices
-  ls /dev/* 
+  ls /dev/* # ls /dev/usb* || ls /dev/sda* || ls /dev/tty*  
   df -h
   ```
 * [Linux Serial Ports Using C/C++ (blog.mbedded.ninja)](https://blog.mbedded.ninja/programming/operating-systems/linux/linux-serial-ports-using-c-cpp/): In typical UNIX style, serial ports are represented by files within the operating system. These files usually pop-up in /dev/, and begin with the name tty*.

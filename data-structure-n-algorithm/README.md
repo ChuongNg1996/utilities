@@ -10,3 +10,5 @@
   Characteristics: **Correctness, Time Complexity** (execution time), **Space Complexity** (memory usage).
   
   Terminology: **Data** (set of values), **Data Item** (single unit of values), **Group Items** (Data items that are divided into sub items), **Elementary Items** (Data items that cannot be divided further), **Attribute and Entity** (An entity contains certain attributes or properties), **Entity Set** (Entities of similar attributes), **Field** (single elementary unit of information representing an attribute of an entity), **Record** (a collection of field values of a given entity), **File** (a collection of records of the entities in a given entity set). 
+
+* [Algorithms Basics](https://www.tutorialspoint.com/data_structures_algorithms/algorithms_basics.htm): ... **Space Complexity** = fixed/constant part + variable part. **Time Complexity**  can be defined as a numerical function T(n), where T(n) can be measured as the *number of steps*, provided each step consumes *constant time*.

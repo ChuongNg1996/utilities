@@ -9,4 +9,4 @@
   
   Characteristics: **Correctness, Time Complexity** (execution time), **Space Complexity** (memory usage).
   
-  Terminology: **Data** (set of values), **Data Item** (single unit of values), **Group Items** (Data items that are divided into sub items), **Elementary Items** (Data items that cannot be divided further), **Attribute and Entity** (An entity contains certain attributes or properties), 
+  Terminology: **Data** (set of values), **Data Item** (single unit of values), **Group Items** (Data items that are divided into sub items), **Elementary Items** (Data items that cannot be divided further), **Attribute and Entity** (An entity contains certain attributes or properties), **Entity Set** (Entities of similar attributes), **Field** (single elementary unit of information representing an attribute of an entity), **Record** (a collection of field values of a given entity), **File** (a collection of records of the entities in a given entity set). 

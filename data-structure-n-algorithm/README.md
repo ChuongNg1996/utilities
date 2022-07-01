@@ -1,6 +1,6 @@
 # Data Structure and Algorithms
 
-## Tutorialspoint
+## [Tutorialspoint](https://www.tutorialspoint.com/data_structures_algorithms/index.htm)
 
 * [tutorialspoint-DSA-Home](https://www.tutorialspoint.com/data_structures_algorithms/index.htm): **Problems?** (1) Speed and (2) Multiple Request **Application?** `Search, Sort, Insert, Update, Delete` (e.g, Fibonacci number series, Knapsack problem, Tower of Hanoi, All pair shortest path by Floyd-Warshall, Shortest path by Dijkstra, Project scheduling)
 * [tutorialspoint-DSA-Overview](https://www.tutorialspoint.com/data_structures_algorithms/data_structure_overview.htm):
@@ -49,5 +49,4 @@
 
 * [Sorting Techniques](https://www.tutorialspoint.com/data_structures_algorithms/sorting_algorithms.htm): **in-place sorting**: requires some extra spaces but mostly operates at the *same space* **VS. not-in-place sorting**: requires equal or more spaces . **stable sorting**: does not change the sequence of similar/equal content **VS. un-stable sorting** changes the sequence of similar/equal content. **adaptive sorting**: if the source list has some element already sorted, adaptive algorithms will take this into account and will *try not to re-order them*. **VS. non-adaptive sorting**: try to force every single element to be *re-ordered*. **Terms**: Increasing Order (only greater than), Decreasing Order (only less than), Non-Increasing Order (has less or equal), Non-Decreasing Order (has greater or equal).
   
-  
-* 
+* [**Bubble Sort**](https://www.tutorialspoint.com/data_structures_algorithms/bubble_sort_algorithm.htm): O(n^2), check *pair of adjacent elements* and swap if they are not in order. After *final iteration*, the data is sorted. Also, after an iteration, the first values may not correct but the final values (depend on which iteration) are 100% correct because essentially we are pushing the largest values to the last, not pushing the smallest value to the first. Thus, based of which iteration, we can omitted the obvious ordered last values.

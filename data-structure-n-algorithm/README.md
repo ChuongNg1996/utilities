@@ -19,12 +19,16 @@
 
 * The particular data structure chosen largely depends on the *frequency of the operation* that needs to be performed on the data structure (e.g. `Traversing, Searching, Insertion, Deletion, Sorting, Merging`). 
 
+### Linked List
+
 * [**Linked List**](https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm): second most-used after array. Types: **Simple Linked List, Doubly Linked List, Circular Linked List**.
 
+### Stack & Queque
 * [**Stack**](https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm): an Abstract Data Type (ADT), LIFO (Last-in-first-out), insertion operation is PUSH(), removal operation is POP().
 
 * [**Queqe**](https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm): an Abstract Data Type (ADT), FIFO (First-in-first-out), 
 
+### Search Techniques
 * [Search Techniques](https://www.tutorialspoint.com/data_structures_algorithms/linear_search_algorithm.htm): **Linear search** (Every item is checked and if a match is found then that particular item is returned, otherwise the search continues *till the end of the data collection*), **Binary Search** (should be in the *sorted form*, comparing the middle most item of the collection. If a match occurs, then the index of item is returned. If the middle item is greater than the item, then the item is searched in the sub-array to the left of the middle item. Otherwise, the item is searched for in the sub-array to the right of the middle item.) **Interpolation Search** (*my interpretation: similar to Binary search, need ordered items, but the mid aimed towards the item X, via the formula:*)
 
   ```sh

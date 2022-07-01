@@ -31,7 +31,7 @@
 
 * [**Queqe**](https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm): an Abstract Data Type (ADT), FIFO (First-in-first-out), 
 
-### Search Techniques
+### Search
 * [Search Techniques](https://www.tutorialspoint.com/data_structures_algorithms/linear_search_algorithm.htm): **Linear search** (Every item is checked and if a match is found then that item is returned, otherwise the search continues *till the end*), **Binary Search** (should be in the *sorted form*, comparing the middle most item of the collection. If a match occurs, then the index of item is returned. If the middle item is greater than the item, then the item is searched in the sub-array to the left of the middle item. Otherwise, the item is searched for in the sub-array to the right) **Interpolation Search** (*my interpretation: similar to Binary search, need ordered items, but the mid aimed towards the item X, via the formula:*)
 
   ```sh
@@ -44,3 +44,10 @@
   where `probe_pos`, `low_end` and `high_end` are INDEX.
   
   **Hash Table** (data is stored in an array format, where each data value has its own unique index value. *Access of data becomes very fast* if we know the index of the desired data - data are stored in an *associative manner* by *Key*)
+
+### Sorting
+
+* [Sorting Techniques](https://www.tutorialspoint.com/data_structures_algorithms/sorting_algorithms.htm): **in-place sorting**: requires some extra spaces but mostly operates at the *same space* VS. **not-in-place sorting**: requires equal or more spaces . **stable sorting**: does not change the sequence of similar/equal content VS. **un-stable sorting** changes the sequence of similar/equal content. **adaptive sorting**: if the source list has some element already sorted, adaptive algorithms will take this into account and will *try not to re-order them*. VS. **non-adaptive sorting**: try to force every single element to be *re-ordered*. **Terms**: Increasing Order (only greater than), Decreasing Order (only less than), Non-Increasing Order (has less or equal), Non-Decreasing Order (has greater or equal).
+  
+  
+* 

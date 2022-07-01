@@ -47,7 +47,7 @@
 
 ### Sorting
 
-* [Sorting Techniques](https://www.tutorialspoint.com/data_structures_algorithms/sorting_algorithms.htm): **in-place sorting**: requires some extra spaces but mostly operates at the *same space* VS. **not-in-place sorting**: requires equal or more spaces . **stable sorting**: does not change the sequence of similar/equal content VS. **un-stable sorting** changes the sequence of similar/equal content. **adaptive sorting**: if the source list has some element already sorted, adaptive algorithms will take this into account and will *try not to re-order them*. VS. **non-adaptive sorting**: try to force every single element to be *re-ordered*. **Terms**: Increasing Order (only greater than), Decreasing Order (only less than), Non-Increasing Order (has less or equal), Non-Decreasing Order (has greater or equal).
+* [Sorting Techniques](https://www.tutorialspoint.com/data_structures_algorithms/sorting_algorithms.htm): **in-place sorting**: requires some extra spaces but mostly operates at the *same space* **VS. not-in-place sorting**: requires equal or more spaces . **stable sorting**: does not change the sequence of similar/equal content **VS. un-stable sorting** changes the sequence of similar/equal content. **adaptive sorting**: if the source list has some element already sorted, adaptive algorithms will take this into account and will *try not to re-order them*. **VS. non-adaptive sorting**: try to force every single element to be *re-ordered*. **Terms**: Increasing Order (only greater than), Decreasing Order (only less than), Non-Increasing Order (has less or equal), Non-Decreasing Order (has greater or equal).
   
   
 * 

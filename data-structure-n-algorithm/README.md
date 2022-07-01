@@ -1,4 +1,7 @@
 # Data Structure and Algorithms
+General idea:
+* Arrange data in a certain **data structure** (e.g *array, graph, tree, etc.*), with each data structure we have different **techniques** to perform **operations** (e.g *Search, Sort, Insert, Update, Delete*). E.g. for *array **data structure***, we have *bubble sorting, insertion sorting, ... **techniques*** for *sorting **operation***. 
+
 
 ## [Tutorialspoint](https://www.tutorialspoint.com/data_structures_algorithms/index.htm)
 

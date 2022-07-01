@@ -39,7 +39,7 @@
   RATIO(transform_from_VALUE_to_INDEX) = INDEX(high_end - low_end)/VALUE(high_end - low_end)
   VALUE(distance_from_low_to_X) = VALUE(X) - VALUE(low_end)
   
-  -> probe_pos = low_end + (high_end - low_end)/(VALUE(high_end) - VALUE(low_end)) * (VALUE(X) - VALUE(low_end))
+  -> probe_pos = low_end + INDEX(high_end - low_end)/VALUE(high_end - low_end) * (VALUE(X) - VALUE(low_end))
   ```
   where `probe_pos`, `low_end` and `high_end` are INDEX.
   

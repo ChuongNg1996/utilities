@@ -19,3 +19,4 @@
 
 * The particular data structure chosen largely depends on the *frequency of the operation* that needs to be performed on the data structure (e.g. `Traversing, Searching, Insertion, Deletion, Sorting, Merging`). 
 
+* [Linked List](https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm): **Simple Linked List, Doubly Linked List, Circular Linked List**.

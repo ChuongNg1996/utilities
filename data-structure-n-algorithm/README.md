@@ -61,4 +61,8 @@
 
 * [**Quick Sort**](https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.htm): choose final index as a "pivot", ...
 
+### Graph Data Structure
 
+* [**Graph Data Structure**](https://www.tutorialspoint.com/data_structures_algorithms/graph_data_structure.htm): **Vertex**: a node on the graph, **Edge**: a path between two nodes, **Path**: *sequence of egdes* between two nodes. 
+
+* [**Depth First Traversal**](https://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm): use *a stack*, keep **PUSH()** visited nodes and their unvisited adjancent nodes, **PULL()** a visited node if it has no adjancent node. Eventually the stack is empty and all nodes are visited. 

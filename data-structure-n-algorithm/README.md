@@ -82,3 +82,6 @@ General idea:
 * [**Tree Tranversal**](https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm): Recursive, **In-order Traversal**: left subtree is visited first, then the root and later the right sub-tree (output will produce sorted key values in an ascending order). **Pre-order Traversal**:  root node is visited first, then the left subtree and finally the right subtree. **Post-order Traversal**:  traverse the left subtree, then the right subtree and finally the root node. 
 
 * [**AVL Trees**](https://www.tutorialspoint.com/data_structures_algorithms/avl_tree_algorithm.htm): Named after their inventor *Adelson, Velski & Landis*, AVL trees are **height balancing binary search tree** using **AVL Rotations** (*Left rotation, Right rotation, Left-Right rotation, Right-Left rotation*). AVL tree permits difference (balance factor) to be only 1.
+
+* [**Spanning Tree**](https://www.tutorialspoint.com/data_structures_algorithms/spanning_tree.htm): A spanning tree is a subset of Graph, used to find a minimum path to connect all nodes in a graph. 
+

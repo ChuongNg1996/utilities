@@ -74,7 +74,9 @@ General idea:
 
 ### Tree Data Structure
 
-Tree represents the **nodes** connected by **edges**. Here we focus on **binary search tree** specifically, which has a special condition that each node can have a *maximum of two children*.  A binary tree has the benefits of both an ordered array and a linked list as *search is as quick as in a sorted array* and *insertion or deletion operation are as fast as in linked list*.
+[Tree](https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm) represents the **nodes** connected by **edges**. Here we focus on **binary search tree** specifically, which has a special condition that each node can have a *maximum of two children*.  A binary tree has the benefits of both an ordered array and a linked list as *search is as quick as in a sorted array* and *insertion or deletion operation are as fast as in linked list*.
 
 * In Binary Search Tree (BST), a node's *left child must have a value less than* its parent's value and the node's *right child must have a value greater than* its parent value. 
 * **Operations:** *Insert, Search, Preorder Traversal, Inorder Traversal, Postorder Traversal*.      
+
+* [**Tree Tranversal**](https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm): Recursive, **In-order Traversal**: left subtree is visited first, then the root and later the right sub-tree (output will produce sorted key values in an ascending order). **Pre-order Traversal**:  root node is visited first, then the left subtree and finally the right subtree. **Post-order Traversal**:  traverse the left subtree, then the right subtree and finally the root node. 

@@ -71,3 +71,7 @@ General idea:
 * [**Depth First Traversal**](https://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm): use *a stack*, keep **push()** visited nodes and then one of their unvisited adjancent nodes (NOT ALL of their unvisited adjancent nodes) till the end of the graph and recursive back, **pull()** a visited node if it has no adjancent node. Eventually the stack is empty and all nodes are visited. 
 
 * [**Breadth First Traversal**](https://www.tutorialspoint.com/data_structures_algorithms/breadth_first_traversal.htm): use *a stack*, **queue()** ALL unvisited adjancent nodes of a visitied node (instead of going with one till the end of the graph) ...
+
+### Tree Data Structure
+
+Tree represents the **nodes** connected by **edges**. Here we focus on **binary search tree** specifically, which has a special condition that each node can have a maximum of two children.  A binary tree has the benefits of both an ordered array and a linked list as *search is as quick as in a sorted array* and *insertion or deletion operation are as fast as in linked list*.

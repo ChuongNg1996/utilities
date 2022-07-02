@@ -74,4 +74,7 @@ General idea:
 
 ### Tree Data Structure
 
-Tree represents the **nodes** connected by **edges**. Here we focus on **binary search tree** specifically, which has a special condition that each node can have a maximum of two children.  A binary tree has the benefits of both an ordered array and a linked list as *search is as quick as in a sorted array* and *insertion or deletion operation are as fast as in linked list*.
+Tree represents the **nodes** connected by **edges**. Here we focus on **binary search tree** specifically, which has a special condition that each node can have a *maximum of two children*.  A binary tree has the benefits of both an ordered array and a linked list as *search is as quick as in a sorted array* and *insertion or deletion operation are as fast as in linked list*.
+
+* In Binary Search Tree (BST), a node's *left child must have a value less than* its parent's value and the node's *right child must have a value greater than* its parent value. 
+* **Operations:** *Insert, Search, Preorder Traversal, Inorder Traversal, Postorder Traversal*.      

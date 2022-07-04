@@ -60,9 +60,9 @@ General idea:
 
 * [**Merge Sort Algorithm**](https://www.tutorialspoint.com/data_structures_algorithms/merge_sort_algorithm.htm): O(n log n), not-in-place sorting. Divide the data into atomic, then merge them to create many small arrays and eventually the full array, each small merged array need to be sorted. *This sounds awful lot like Selection Sort with extra steps, then why is it faster? [Because](https://www.quora.com/Why-is-merge-sort-algorithm-so-much-faster-than-insertion-sort-algorithm-when-they-seem-to-be-doing-the-same-thing-getting-elements-and-inserting-them-in-the-correct-place) it embeds the merged array into a completely new space, no need to perform additional operations to move & replace the whole array, like Selection Sort. Thus it's downgrade is using more space.*
 
-* [**Shell Sort**](https://www.tutorialspoint.com/data_structures_algorithms/shell_sort_algorithm.htm): Ο(n), kind of a *bootstrap for Insertion Sort*, move smaller values to the left and larger values to the right in a *quick manner* (check the articles for detail), and then *finish up with Insertion Sort*. Thus, the Insertion sort has much smaller change to resort again and again.
+* [**Shell Sort**](https://www.tutorialspoint.com/data_structures_algorithms/shell_sort_algorithm.htm): Ο(n), in-place sorting, kind of a *bootstrap for Insertion Sort*, move smaller values to the left and larger values to the right in a *quick manner* (check the articles for detail), and then *finish up with Insertion Sort*. Thus, the Insertion sort has much smaller change to resort again and again.
 
-* [**Quick Sort**](https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.htm): choose final index as a "pivot", ...
+* [**Quick Sort**](https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.htm): in-place sorting, choose final index as a "pivot", ...
 
 ### Graph Data Structure
 

@@ -86,3 +86,7 @@ General idea:
 * [**Spanning Tree**](https://www.tutorialspoint.com/data_structures_algorithms/spanning_tree.htm): A spanning tree is a subset of Graph, used to find a minimum path to connect all nodes in a graph. 
 
 * [**Heap**](https://www.tutorialspoint.com/data_structures_algorithms/heap_data_structure.htm): **Min-Heap**: Where the value of the root node is less than or equal to either of its children. **Max-Heap**: Where the value of the root node is greater than or equal to either of its children.
+
+## NOTEs
+
+* `Quick Sort` is not completed.

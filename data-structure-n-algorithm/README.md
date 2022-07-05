@@ -68,9 +68,9 @@ General idea:
 
 * [**Graph Data Structure**](https://www.tutorialspoint.com/data_structures_algorithms/graph_data_structure.htm): **Vertex**: a node on the graph, **Edge**: a path between two nodes, **Path**: *sequence of egdes* between two nodes. 
 
-* [**Depth First Traversal**](https://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm): use *a stack*, keep **push()** visited nodes and then one of their unvisited adjancent nodes (NOT ALL of their unvisited adjancent nodes) till the end of the graph and recursive back, **pull()** a visited node if it has no adjancent node. Eventually the stack is empty and all nodes are visited. 
+* [**Depth First Traversal**](https://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm): use *a stack* (i used `recursion`), keep **push()** visited nodes and then one of their unvisited adjancent nodes (NOT ALL of their unvisited adjancent nodes) till the end of the graph and recursive back, **pull()** a visited node if it has no adjancent node. Eventually the stack is empty and all nodes are visited. 
 
-* [**Breadth First Traversal**](https://www.tutorialspoint.com/data_structures_algorithms/breadth_first_traversal.htm): use *a stack*, **queue()** ALL unvisited adjancent nodes of a visitied node (instead of going with one till the end of the graph) ...
+* [**Breadth First Traversal**](https://www.tutorialspoint.com/data_structures_algorithms/breadth_first_traversal.htm): use *a queqe* (i used `recursion`), **queue()** ALL unvisited adjancent nodes of a visitied node (instead of going with one till the end of the graph) ...
 
 ### Tree Data Structure
 

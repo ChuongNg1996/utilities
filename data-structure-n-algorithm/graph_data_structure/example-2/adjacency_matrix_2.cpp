@@ -6,8 +6,8 @@ using namespace std;
 // undirected graph.
 void addEdge(vector<int> adj[], int u, int v)
 {
-    adj[u].push_back(v);
-    adj[v].push_back(u);
+    adj[u].push_back(v); // Append edge to node v on vertex u
+    adj[v].push_back(u); // Append edge to node u on vertex v
 }
  
 // A utility function to print the adjacency list
@@ -27,7 +27,7 @@ void printGraph(vector<int> adj[], int V)
 int main()
 {
     int V = 5;
-    vector<int> adj[V];
+    vector<int> adj[V]; // Decide size first or else no memory is allocated to append egde and vertex
     addEdge(adj, 0, 1);
     addEdge(adj, 0, 4);
     addEdge(adj, 1, 2);

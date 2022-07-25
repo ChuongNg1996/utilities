@@ -1,5 +1,5 @@
-. **ORIGINAL CREATOR**: miguelgrinberg
-. **LINK**: https://blog.miguelgrinberg.com/post/video-streaming-with-flask 
+* **ORIGINAL CREATOR**: miguelgrinberg
+* **LINK**: https://blog.miguelgrinberg.com/post/video-streaming-with-flask 
 
 flask-video-streaming
 =====================

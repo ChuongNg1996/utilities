@@ -66,7 +66,13 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
   
 ## Teleport
   * Descendants of `teleconsole`, [website](https://goteleport.com/).
-  
+
+# Socket Programming
+
+## Flask 
+* [Souce #1](https://blog.miguelgrinberg.com/post/video-streaming-with-flask),[Source #2](https://pyimagesearch.com/2019/09/02/opencv-stream-video-to-web-browser-html-page/)
+* To run example: `python app.py`, to change class: `from camera_opencv import Camera`
+
 # Others
   
 ## ngrok

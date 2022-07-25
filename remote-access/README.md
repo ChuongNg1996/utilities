@@ -69,6 +69,9 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
 
 # Socket Programming
 
+## Socket (Python Module)
+* [Source #1](https://stackoverflow.com/questions/71528402/i-am-streaming-video-with-udp-between-windows-and-linux-how-can-i-turn-off-the) 
+ 
 ## Flask 
 * [Souce #1](https://blog.miguelgrinberg.com/post/video-streaming-with-flask),[Source #2](https://pyimagesearch.com/2019/09/02/opencv-stream-video-to-web-browser-html-page/)
 * To run example: `python app.py`, to change class: `from camera_opencv import Camera`

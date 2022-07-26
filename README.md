@@ -163,7 +163,7 @@ Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OS
 * The physical layer defines the means of transmitting a *stream of raw bits* over a physical data link connecting network nodes. 
 
   ```sh
-      1-Wire
+    1-Wire
     ARINC 818 Avionics Digital Video Bus
     Bluetooth physical layer
     CAN bus (controller area network) physical layer

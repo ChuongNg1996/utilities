@@ -81,21 +81,20 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
 ## Back End
 
 ## HTTP (Application Layer Protocol)
-* [Intro](https://developer.mozilla.org/en-US/docs/Web/HTTP): an *application-layer protocol* for *transmitting hypermedia documents*, such as HTML. It was designed for **communication between web browsers and web servers**, but it can also be used for other purposes. HTTP follows a classical *client-server* model, with a client opening a connection to make a request, then waiting until it receives a response. HTTP is a *stateless protocol*, meaning that the server does not keep any data (state) between two requests.
-* [Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview): HTTP is a protocol for *fetching resources* such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are *initiated by the recipient*, usually the *Web browser*. 
+* [Intro](https://developer.mozilla.org/en-US/docs/Web/HTTP): an *application-layer protocol* for *transmitting hypermedia documents*, such as HTML. It was designed for **communication between web browsers and web servers**, but it can also be used for other purposes. HTTP follows a classical *client-server* model, with a client opening a connection to make a request, then waiting until it receives a response. HTTP is a *stateless protocol*, meaning that the server does not keep any data (state) between two requests. 
+* [Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview): HTTP is a protocol for *fetching resources* such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are *initiated by the recipient*, usually the *Web browser*. Clients and servers communicate by exchanging *individual messages* (as **opposed** to a *stream of data*). The messages sent by the client, usually a Web browser, are called *requests* and the messages sent by the server as an answer are called *responses*. 
 
 <p align="center">
   <img width="600" height="353" loading = "lazy" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/fetching_a_page.png">
 </p>
 
-+ Clients and servers communicate by exchanging *individual messages* (as **opposed** to a *stream of data*). The messages sent by the client, usually a Web browser, are called *requests* and the messages sent by the server as an answer are called *responses*. 
+* It is an application layer protocol that is sent over **TCP**, or over a *TLS-encrypted TCP connection*, though any reliable transport protocol could theoretically be used. Due to its extensibility, it is used to not only fetch hypertext documents, but also images and videos or to post content to servers.
 
-+ It is an application layer protocol that is sent over **TCP**, or over a *TLS-encrypted TCP connection*, though any reliable transport protocol could theoretically be used. Due to its extensibility, it is used to not only fetch hypertext documents, but also images and videos or to post content to servers.
+* **Client: the user-agent**  The user-agent is any tool that acts on behalf of the user. This role is primarily performed by the Web browser, but it may also be performed by programs used by engineers and Web developers to debug their applications. The browser is always the entity *initiating the request*. It is never the server (though some mechanisms have been added over the years to simulate server-initiated messages).  
 
-+ **Client: the user-agent**  The user-agent is any tool that acts on behalf of the user. This role is primarily performed by the Web browser, but it may also be performed by programs used by engineers and Web developers to debug their applications. The browser is always the entity *initiating the request*. It is never the server (though some mechanisms have been added over the years to simulate server-initiated messages).  
+* **The Web server**  A server appears as only a *single machine virtually*; but it may actually be a collection of servers sharing the load (load balancing), or a complex piece of software interrogating other computers (like cache, a DB server, or e-commerce servers), totally or partially generating the document on demand. 
 
-+ **The Web server**  A server appears as only a *single machine virtually*; but it may actually be a collection of servers sharing the load (load balancing), or a complex piece of software interrogating other computers (like cache, a DB server, or e-commerce servers), totally or partially generating the document on demand. 
-
+* **Basic aspects of HTTP**: *simple; extensible; stateless, but not sessionless:* while the core of HTTP itself is stateless, HTTP cookies allow the use of stateful sessions. Using header extensibility, **HTTP Cookies** are added to the workflow, allowing session creation on each HTTP request to *share the same context, or the same state*; HTTP doesn't require the underlying transport protocol to be connection-based; it only requires it to be *reliable*, or not lose messages. Among the *two most common transport protocols* on the Internet, TCP is reliable and UDP isn't. HTTP therefore relies on the TCP standard, which is connection-based. 
 
 # Others
   

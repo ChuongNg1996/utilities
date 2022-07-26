@@ -98,13 +98,13 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
 
 * An example of HTTP request:
 <p align="center">
-  <img width="600" height="353" loading = "lazy" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http_request.png">
+  <img width="600" height="291" loading = "lazy" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http_request.png">
 </p>
 
 * An example of HTTP response:
 
 <p align="center">
-  <img width="600" height="353" loading = "lazy" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http_response.png">
+  <img width=" 690" height="450" loading = "lazy" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http_response.png">
 </p>
 
 

@@ -72,7 +72,24 @@ Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OS
 
   ```sh
   EXAMPLES 
-  TCP UDP DCCP SCTP RSVP QUIC more...
+  
+  ATP, AppleTalk Transaction Protocol
+  CUDP, Cyclic UDP[4]
+  DCCP, Datagram Congestion Control Protocol
+  FCP, Fibre Channel Protocol
+  IL, IL Protocol
+  MPTCP, Multipath TCP
+  NORM, NACK-Oriented Reliable Multicast
+  RDP, Reliable Data Protocol
+  RUDP, Reliable User Datagram Protocol
+  SCTP, Stream Control Transmission Protocol
+  SPX, Sequenced Packet Exchange
+  SST, Structured Stream Transport
+  TCP, Transmission Control Protocol
+  UDP, User Datagram Protocol
+  UDP-Lite
+  µTP, Micro Transport Protocol
+
   ```
 
 ### 3. Network layer

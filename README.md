@@ -20,7 +20,7 @@ My Basic Utilities
 Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OSI_model)) a conceptual model that describes the universal standard of communication functions of a telecommunication system or computing system, without any regard to the system's underlying internal technology and specific protocol suites (for *modularity* purpose). [Image source](https://linuxhint.com/network-osi-layers-explained/) 
 
 <p align="center">
-  <img width="600" height="327" src="https://linuxhint.com/wp-content/uploads/2021/07/image1-39.png">
+  <img width="600" height="327"  style="background-color:#33475b" src="https://linuxhint.com/wp-content/uploads/2021/07/image1-39.png">
 </p>
 
 

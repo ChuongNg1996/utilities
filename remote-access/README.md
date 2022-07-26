@@ -82,10 +82,13 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
 
 ## HTTP (Application Layer Protocol)
 * [Intro](https://developer.mozilla.org/en-US/docs/Web/HTTP): an *application-layer protocol* for *transmitting hypermedia documents*, such as HTML. It was designed for **communication between web browsers and web servers**, but it can also be used for other purposes. HTTP follows a classical *client-server* model, with a client opening a connection to make a request, then waiting until it receives a response. HTTP is a *stateless protocol*, meaning that the server does not keep any data (state) between two requests.
+* [Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview): HTTP is a protocol for *fetching resources* such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are *initiated by the recipient*, usually the *Web browser*. 
 
 <p align="center">
-  <img width="600" height="400" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/fetching_a_page.png">
+  <img width="867" height="510" loading = "lazy" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/fetching_a_page.png">
 </p>
+
+Clients and servers communicate by exchanging individual messages (as opposed to a stream of data). The messages sent by the client, usually a Web browser, are called requests and the messages sent by the server as an answer are called responses. 
 
 
 # Others

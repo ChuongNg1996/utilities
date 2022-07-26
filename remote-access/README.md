@@ -72,7 +72,7 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
 * [Virtal Server/Port Forwarding Guide #1](https://www.tp-link.com/vn/support/faq/1216/), [Guide #2](https://bkaii.com.vn/tin-tuc/tin-nganh/172-huong-dan-nat-port-modem-gpon-gw040-cua-vpnt-de-ket-noi-f2103-gprs-ip-modem-qua-mang-internet): Go to the web-based interface of the **modem router** (e.g. `192.168.1.1`) -> Log in -(From this stage, it is different depend on router)-> Network -> NAT -> NAT Type: Virtual Server -> Range of ext/int port & IP -> Add -> Run a web server on `<port number>` or use `sudo nc -l <port number>` -> Use [this](https://ping.eu/port-chk/) or `https://<public_ip>:<port number>` on a web browser to check if the port is open.
 * To check if the port is [listening](https://www.cyberciti.biz/faq/unix-linux-check-if-port-is-in-use-command/): `sudo lsof -i -P -n`
 * [Guide #3](https://forums.tomshardware.com/threads/cant-forward-any-port.3581455/): Use `DMZ` to open ALL ports. If the DMZ doesn't work then it is likely something blocking it. First be very sure you have a public ip. Make sure the *IP address you see on your WAN interface in your router is the same as the one on the scan web site*, if NOT -> [You're behind **carrier grade NAT** so port forwards won't work](https://superuser.com/questions/1035938/how-to-do-port-forwarding-if-my-router-wan-ip-is-different-from-public-ip) -> (1) Subscribe to a **VPN provider** that assigns dedicated IPs per user and allows port forwarding or (2) Pay for a **static IP address**.
-
+* For solution for CGNAT: [#1](https://techenclave.com/threads/what-options-are-available-to-setup-port-forwarding-on-cgnat.198939/)
 
 
 # Socket Programming

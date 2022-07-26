@@ -88,7 +88,13 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
   <img width="600" height="353" loading = "lazy" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/fetching_a_page.png">
 </p>
 
-  Clients and servers communicate by exchanging *individual messages* (as **opposed** to a *stream of data*). The messages sent by the client, usually a      Web browser, are called *requests* and the messages sent by the server as an answer are called *responses*. 
++ Clients and servers communicate by exchanging *individual messages* (as **opposed** to a *stream of data*). The messages sent by the client, usually a Web browser, are called *requests* and the messages sent by the server as an answer are called *responses*. 
+
++ It is an application layer protocol that is sent over **TCP**, or over a *TLS-encrypted TCP connection*, though any reliable transport protocol could theoretically be used. Due to its extensibility, it is used to not only fetch hypertext documents, but also images and videos or to post content to servers.
+
++ **Client: the user-agent**  The user-agent is any tool that acts on behalf of the user. This role is primarily performed by the Web browser, but it may also be performed by programs used by engineers and Web developers to debug their applications. The browser is always the entity *initiating the request*. It is never the server (though some mechanisms have been added over the years to simulate server-initiated messages).  
+
++ **The Web server**  A server appears as only a *single machine virtually*; but it may actually be a collection of servers sharing the load (load balancing), or a complex piece of software interrogating other computers (like cache, a DB server, or e-commerce servers), totally or partially generating the document on demand. 
 
 
 # Others

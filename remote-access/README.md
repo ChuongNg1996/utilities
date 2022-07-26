@@ -69,12 +69,21 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
 
 # Socket Programming
 
-## Socket (Python Module)
+## Front End
+
+### Socket (Framework - Python Module)
 * [Source #1](https://stackoverflow.com/questions/71528402/i-am-streaming-video-with-udp-between-windows-and-linux-how-can-i-turn-off-the) 
  
-## Flask 
+### Flask (Framework - Python Module)
 * [Souce #1](https://blog.miguelgrinberg.com/post/video-streaming-with-flask),[Source #2](https://pyimagesearch.com/2019/09/02/opencv-stream-video-to-web-browser-html-page/)
 * To run example: `python app.py`, to change class: `from camera_opencv import Camera`
+
+## Back End
+
+## HTTP (Application Layer Protocol)
+* [Intro](https://developer.mozilla.org/en-US/docs/Web/HTTP): an *application-layer protocol* for *transmitting hypermedia documents*, such as HTML. It was designed for **communication between web browsers and web servers**, but it can also be used for other purposes. HTTP follows a classical *client-server* model, with a client opening a connection to make a request, then waiting until it receives a response. HTTP is a *stateless protocol*, meaning that the server does not keep any data (state) between two requests.
+
+
 
 # Others
   

@@ -93,7 +93,26 @@ Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OS
   ```
 
 ### 3. Network layer
+* [Wiki](https://en.wikipedia.org/wiki/Network_layer): The network layer is responsible for *packet forwarding* including routing through intermediate routers.
 
+  ```sh
+  EXAMPLES
+  
+  CLNS, Connectionless-mode Network Service
+  DDP, Datagram Delivery Protocol
+  EGP, Exterior Gateway Protocol
+  EIGRP, Enhanced Interior Gateway Routing Protocol
+  ICMP, Internet Control Message Protocol
+  IGMP, Internet Group Management Protocol
+  IPsec, Internet Protocol Security
+  IPv4/IPv6, Internet Protocol
+  IPX, Internetwork Packet Exchange
+  LLARP, Low Latency Anonymous Routing Protocol
+  OSPF, Open Shortest Path First
+  PIM, Protocol Independent Multicast
+  RIP, Routing Information Protocol
+
+  ```
 
 ### 2. Data link layer
 ### 1. Physical layer

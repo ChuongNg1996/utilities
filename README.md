@@ -42,7 +42,8 @@ Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OS
   ```
 
 ### 5. Session layer
-* [Wiki](https://en.wikipedia.org/wiki/Session_layer): The session layer provides the mechanism for *opening, closing and managing a session* between end-user application processes, (i.e., a semi-permanent dialogue). Communication sessions consist of *requests and responses* that occur between applications. Session-layer services are commonly used in application environments that make use of *remote procedure calls (RPCs)*. 
+* [Wiki](https://en.wikipedia.org/wiki/Session_layer): The session layer provides the mechanism for *opening, closing and managing a session* between end-user application processes, (i.e., a semi-permanent dialogue). 
+* Communication sessions consist of *requests and responses* that occur between applications. Session-layer services are commonly used in application environments that make use of *remote procedure calls (RPCs)*. 
 
   ```sh
   EXAMPLES
@@ -68,7 +69,8 @@ Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OS
   ```
 
 ### 4. Transport layer
-* [Wiki](https://en.wikipedia.org/wiki/Transport_layer): The protocols of this layer provide end-to-end communication *services* for applications. It provides services such as *connection-oriented communication, reliability, flow control, congestion avoidance* and *multiplexing*, ... 
+* [Wiki](https://en.wikipedia.org/wiki/Transport_layer): The protocols of this layer provide end-to-end communication *services* for applications. 
+* It provides services such as *connection-oriented communication, reliability, flow control, congestion avoidance* and *multiplexing*, ... 
 
   ```sh
   EXAMPLES 
@@ -116,4 +118,82 @@ Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OS
   ```
 
 ### 2. Data link layer
+* [Wiki](https://en.wikipedia.org/wiki/Data_link_layer): This layer is the protocol layer that *transfers data between nodes* on a network segment across the *physical layer*.
+*  The data link layer provides the *functional and procedural means to transfer data* between network entities and may also provide the means to *detect and possibly correct errors* that can occur in the physical layer. The service provided by the data link layer are: *Encapsulation of network layer data packets into frames*; *Frame synchronization*; In the **logical link control (LLC)** sublayer: *Error control, Flow control*; In the **medium access control (MAC)** sublayer: *Multiple access methods, Physical addressing (MAC addressing), LAN switching (packet switching), Data packet queuing or scheduling, Store-and-forward switching or cut-through switching, Quality of service (QoS) control, Virtual LANs (VLAN)*.  
+ 
+  ```sh
+    ARCnet
+    ATM
+    Cisco Discovery Protocol (CDP)
+    Controller Area Network (CAN)
+    Econet
+    Ethernet
+    Ethernet Automatic Protection Switching (EAPS)
+    Fiber Distributed Data Interface (FDDI)
+    Frame Relay
+    High-Level Data Link Control (HDLC)
+    IEEE 802.2 (provides LLC functions to IEEE 802 MAC layers)
+    IEEE 802.11 wireless LAN
+    I²C
+    LattisNet
+    Link Layer Discovery Protocol (LLDP)
+    LocalTalk
+    MIL-STD-1553
+    Multiprotocol Label Switching (MPLS)
+    Nortel Discovery Protocol (NDP)
+    Point-to-Point Protocol (PPP)
+    Profibus
+    SpaceWire
+    Serial Line Internet Protocol (SLIP) (obsolete)
+    Split multi-link trunking (SMLT)
+    IEEE 802.1aq - Shortest Path Bridging
+    Spanning Tree Protocol
+    StarLan
+    Token Ring
+    TRILL (TRansparent Interconnection of Lots of Links)
+    Unidirectional Link Detection (UDLD)
+    UNI/O
+    1-Wire
+    and most forms of serial communication e.g. USB, PCI Express.
+
+  ```
+
 ### 1. Physical layer
+* [Wiki](https://en.wikipedia.org/wiki/Physical_layer): The physical layer provides an *electrical, mechanical, and procedural interface* to the transmission medium. The shapes and properties of the electrical connectors, the frequencies to broadcast on, the line code to use and similar low-level parameters, are specified by the physical layer. 
+* The physical layer defines the means of transmitting a *stream of raw bits* over a physical data link connecting network nodes. 
+
+  ```sh
+      1-Wire
+    ARINC 818 Avionics Digital Video Bus
+    Bluetooth physical layer
+    CAN bus (controller area network) physical layer
+    DSL
+    EIA RS-232, EIA-422, EIA-423, RS-449, RS-485
+    Etherloop
+    Ethernet physical layer Including 10BASE-T, 10BASE2, 10BASE5, 100BASE-TX, 100BASE-FX, 1000BASE-T, 1000BASE-SX and other varieties
+    G.hn/G.9960 physical layer
+    GSM Um air interface physical layer
+    IEEE 802.15.4 physical layers
+    IEEE 1394 interface
+    IRDA physical layer
+    ISDN
+    ITU Recommendations: see ITU-T
+    I²C, I²S
+    LoRa
+    Low-voltage differential signaling
+    Mobile Industry Processor Interface physical layer
+    Modulated ultrasound
+    Optical Transport Network (OTN)
+    SMB
+    SONET/SDH
+    SPI
+    T1 and other T-carrier links, and E1 and other E-carrier links
+    Telephone network modems — V.92
+    TransferJet physical layer
+    USB physical layer
+    PCI Express physical layer
+    802.11 Wi-Fi physical layer
+    Visible light communication co-ordinated under IEEE 802.15.7
+    X10
+    
+  ```

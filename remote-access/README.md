@@ -67,6 +67,11 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
 ## Teleport
   * Descendants of `teleconsole`, [website](https://goteleport.com/).
 
+# Port Forwarding
+* [Virtal Server = Port Forwarding](https://superuser.com/questions/226630/are-virtual-servers-and-port-forwarding-the-same-thing).
+* [Virtal Server/Port Forwarding Guide #1](https://www.tp-link.com/vn/support/faq/1216/): Go to the web-based interface of the **modem router** (e.g. `192.168.1.1`) -> Log in -(From this stage, it is different depend on router)-> Network -> NAT -> NAT Type: Virtual Server -> Range of ext/int port & IP -> Add
+
+
 # Socket Programming
 
 ## Front End

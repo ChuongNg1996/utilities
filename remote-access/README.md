@@ -88,7 +88,7 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
   <img width="600" height="353" loading = "lazy" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/fetching_a_page.png">
 </p>
 
-  Clients and servers communicate by exchanging *individual messages* (as **opposed** to a *stream of data*). The messages sent by the client, usually a Web browser, are called *requests* and the messages sent by the server as an answer are called *responses*. 
+  Clients and servers communicate by exchanging *individual messages* (as **opposed** to a *stream of data*). The messages sent by the client, usually a      Web browser, are called *requests* and the messages sent by the server as an answer are called *responses*. 
 
 
 # Others

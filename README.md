@@ -93,7 +93,8 @@ Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OS
   ```
 
 ### 3. Network layer
-* [Wiki](https://en.wikipedia.org/wiki/Network_layer): The network layer is responsible for *packet forwarding* including routing through intermediate routers. The network layer provides the means of transferring variable-length network packets from a source to a destination host via one or more networks. Within the service layering semantics of the OSI network architecture, the network layer *responds to service requests from the transport layer* and *issues service requests to the data link layer*. Functions of the network layer include: *Connectionless communication, Host addressing, Message forwarding*.
+* [Wiki](https://en.wikipedia.org/wiki/Network_layer): The network layer is responsible for *packet forwarding* including routing through intermediate routers. The network layer provides the means of transferring variable-length network packets from a source to a destination host via one or more networks. Within the service layering semantics of the OSI network architecture, the network layer *responds to service requests from the transport layer* and *issues service requests to the data link layer*.
+* Functions of the network layer include: *Connectionless communication, Host addressing, Message forwarding*.
 
   ```sh
   EXAMPLES

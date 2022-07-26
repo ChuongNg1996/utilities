@@ -17,7 +17,12 @@ My Basic Utilities
 
 ## NETWORKING 
 
-Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OSI_model)) a conceptual model that describes the universal standard of communication functions of a telecommunication system or computing system, without any regard to the system's underlying internal technology and specific protocol suites (for *modularity* purpose).  
+Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OSI_model)) a conceptual model that describes the universal standard of communication functions of a telecommunication system or computing system, without any regard to the system's underlying internal technology and specific protocol suites (for *modularity* purpose). [Image source](https://linuxhint.com/network-osi-layers-explained/) 
+
+<p align="center">
+  <img width="600" height="327" src="https://linuxhint.com/wp-content/uploads/2021/07/image1-39.png">
+</p>
+
 
 ### 7. Application layer
 * [Wiki](https://en.wikipedia.org/wiki/Application_layer): In the **Internet protocol (IP)** suite, the *application layer* contains the communications protocols and interface methods used in *process-to-process* communications. The **OSI model** defines the *application layer* as only the interface responsible for communicating with *host-based and user-facing applications*.

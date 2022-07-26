@@ -1,10 +1,10 @@
 # Utilities
 My Basic Utilities
 
-## Contents
+## CONTENTS
 * Inter-process Communication (for OS): [Wiki](https://en.wikipedia.org/wiki/Inter-process_communication#Approaches).
 
-## CLassical Physics
+## CLASSICAL PHYSICS
 * For constant acceleration `a_c`, for each time step:
 
   ```sh
@@ -15,11 +15,16 @@ My Basic Utilities
   
   where `p_i` and `p_f` are initial and final position; `v_i` `v_f` `v_a` are initial, final and average velocity.
 
-## Networking 
+## NETWORKING 
 
-Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OSI_model), a conceptual model that describes the universal standard of communication functions of a telecommunication system or computing system) 
+Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OSI_model)) a conceptual model that describes the universal standard of communication functions of a telecommunication system or computing system, without any regard to the system's underlying internal technology and specific protocol suites.  
 
 ### 7. Application layer
+* [Wiki](https://en.wikipedia.org/wiki/Application_layer): In the **Internet protocol (IP)** suite, the *application layer* contains the communications protocols and interface methods used in *process-to-process* communications. The **OSI model** defines the *application layer* as only the interface responsible for communicating with *host-based and user-facing applications*.
+  ```sh
+  Application layer of Internet protocol suite
+  BGP DHCP(v6) DNS FTP HTTP HTTPS IMAP IRC LDAP MGCP MQTT NNTP NTP OSPF POP PTP ONC/RPC RTP RTSP RIP SIP SMTP SNMP SSH Telnet TLS/SSL XMPP more...
+  ```
 
 ### 6. Presentation layer
 

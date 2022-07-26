@@ -85,10 +85,10 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
 * [Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview): HTTP is a protocol for *fetching resources* such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are *initiated by the recipient*, usually the *Web browser*. 
 
 <p align="center">
-  <img width="867" height="510" loading = "lazy" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/fetching_a_page.png">
+  <img width="600" height="353" loading = "lazy" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/fetching_a_page.png">
 </p>
 
-Clients and servers communicate by exchanging individual messages (as opposed to a stream of data). The messages sent by the client, usually a Web browser, are called requests and the messages sent by the server as an answer are called responses. 
+Clients and servers communicate by exchanging *individual messages* (as **opposed** to a *stream of data*). The messages sent by the client, usually a Web browser, are called *requests* and the messages sent by the server as an answer are called *responses*. 
 
 
 # Others

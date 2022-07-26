@@ -22,7 +22,7 @@ Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OS
 ### 7. Application layer
 * [Wiki](https://en.wikipedia.org/wiki/Application_layer): In the **Internet protocol (IP)** suite, the *application layer* contains the communications protocols and interface methods used in *process-to-process* communications. The **OSI model** defines the *application layer* as only the interface responsible for communicating with *host-based and user-facing applications*.
   ```sh
-  EXAMPLES (Internet protocol suite)
+  EXAMPLES
   BGP DHCP(v6) DNS FTP HTTP HTTPS IMAP IRC LDAP MGCP MQTT NNTP NTP OSPF POP PTP ONC/RPC RTP RTSP RIP SIP SMTP SNMP SSH Telnet TLS/SSL XMPP more...
   ```
 ### 6. Presentation layer
@@ -33,7 +33,16 @@ Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OS
   ```
 
 ### 5. Session layer
+* [Wiki](https://en.wikipedia.org/wiki/Session_layer): The session layer provides the mechanism for *opening, closing and managing a session* between end-user application processes, (i.e., a semi-permanent dialogue). Communication sessions consist of *requests and responses* that occur between applications. Session-layer services are commonly used in application environments that make use of *remote procedure calls (RPCs)*. 
+
 ### 4. Transport layer
+* [Wiki](https://en.wikipedia.org/wiki/Transport_layer): The protocols of this layer provide end-to-end communication *services* for applications. It provides services such as *connection-oriented communication, reliability, flow control, congestion avoidance* and *multiplexing*, ... 
+
+  ```sh
+  EXAMPLES 
+  TCP UDP DCCP SCTP RSVP QUIC more...
+  ```
+
 ### 3. Network layer
 ### 2. Data link layer
 ### 1. Physical layer

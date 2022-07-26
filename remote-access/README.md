@@ -93,4 +93,4 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
   * Source: [phillipdavidstearns](https://github.com/phillipdavidstearns/simcom_wwan-setup), [Issues Installing SIM7600G-H 4G for Jetson Nano](https://forums.developer.nvidia.com/t/issues-installing-sim7600g-h-4g-for-jetson-nano/129826), [SIM7600X 4G DONGLE (Official)](https://www.waveshare.com/wiki/SIM7600G-H_4G_DONGLE)
   
 ## Front End vs. Back End (Web Dev)
-  "This exact page was created using three **Front End languages**. The words you’re reading are laid out in HTML. The spacing and colors are defined by CSS. The interactive graphics are the result of JavaScript. **Back End languages** working in the background include Ruby, Python, and PHP."
+  "This exact page was created using three **Front End languages**. The words you’re reading are laid out in *HTML*. The spacing and colors are defined by *CSS*. The interactive graphics are the result of *JavaScript*. **Back End languages** working in the background include *Ruby, Python,* and *PHP*."

@@ -96,6 +96,18 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
 
 * **Basic aspects of HTTP**: *simple; extensible; stateless, but not sessionless:* while the core of HTTP itself is stateless, HTTP cookies allow the use of stateful sessions. Using header extensibility, **HTTP Cookies** are added to the workflow, allowing session creation on each HTTP request to *share the same context, or the same state*; HTTP doesn't require the underlying transport protocol to be connection-based; it only requires it to be *reliable*, or not lose messages. Among the *two most common transport protocols* on the Internet, TCP is reliable and UDP isn't. HTTP therefore relies on the TCP standard, which is connection-based. 
 
+* An example of HTTP request:
+<p align="center">
+  <img width="600" height="353" loading = "lazy" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http_request.png">
+</p>
+
+* An example of HTTP response:
+
+<p align="center">
+  <img width="600" height="353" loading = "lazy" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http_response.png">
+</p>
+
+
 # Others
   
 ## ngrok

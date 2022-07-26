@@ -1,4 +1,4 @@
-# utilities
+# Utilities
 My Basic Utilities
 
 ## Contents
@@ -14,3 +14,17 @@ My Basic Utilities
   ```
   
   where `p_i` and `p_f` are initial and final position; `v_i` `v_f` `v_a` are initial, final and average velocity.
+
+## Networking 
+
+Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OSI_model), a conceptual model that describes the universal standard of communication functions of a telecommunication system or computing system) 
+
+### 7. Application layer
+
+### 6. Presentation layer
+
+### 5. Session layer
+### 4. Transport layer
+### 3. Network layer
+### 2. Data link layer
+### 1. Physical layer

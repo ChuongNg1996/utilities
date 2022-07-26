@@ -17,7 +17,7 @@ My Basic Utilities
 
 ## NETWORKING 
 
-Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OSI_model)) a conceptual model that describes the universal standard of communication functions of a telecommunication system or computing system, without any regard to the system's underlying internal technology and specific protocol suites.  
+Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OSI_model)) a conceptual model that describes the universal standard of communication functions of a telecommunication system or computing system, without any regard to the system's underlying internal technology and specific protocol suites (for *modularity* purpose).  
 
 ### 7. Application layer
 * [Wiki](https://en.wikipedia.org/wiki/Application_layer): In the **Internet protocol (IP)** suite, the *application layer* contains the communications protocols and interface methods used in *process-to-process* communications. The **OSI model** defines the *application layer* as only the interface responsible for communicating with *host-based and user-facing applications*.
@@ -30,10 +30,42 @@ Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OS
   ```sh
   EXAMPLES
   HyperText Transfer Protocol (HTTP), generally regarded as an application-layer protocol, has presentation-layer aspects such as the ability to identify character encoding for proper conversion, which is then done in the application layer. 
+  
+  Apple Filing Protocol (AFP)
+  Independent Computing Architecture (ICA), the Citrix system core protocol
+  Lightweight Presentation Protocol (LPP)
+  NetWare Core Protocol (NCP)
+  Network Data Representation (NDR)
+  Tox, The Tox protocol is sometimes regarded as part of both the presentation and application layer
+  eXternal Data Representation (XDR)
+  X.25 Packet Assembler/Disassembler Protocol (PAD)
   ```
 
 ### 5. Session layer
 * [Wiki](https://en.wikipedia.org/wiki/Session_layer): The session layer provides the mechanism for *opening, closing and managing a session* between end-user application processes, (i.e., a semi-permanent dialogue). Communication sessions consist of *requests and responses* that occur between applications. Session-layer services are commonly used in application environments that make use of *remote procedure calls (RPCs)*. 
+
+  ```sh
+  EXAMPLES
+  
+  ADSP, AppleTalk Data Stream Protocol
+  ASP, AppleTalk Session Protocol
+  H.245, Call Control Protocol for Multimedia Communication
+  ISO-SP, OSI session-layer protocol (X.225, ISO 8327)
+  iSNS, Internet Storage Name Service
+  L2F, Layer 2 Forwarding Protocol
+  L2TP, Layer 2 Tunneling Protocol
+  NetBIOS, Network Basic Input Output System
+  PAP, Password Authentication Protocol
+  PPTP, Point-to-Point Tunneling Protocol
+  RPC, Remote Procedure Call Protocol
+  RTCP, Real-time Transport Control Protocol
+  SMPP, Short Message Peer-to-Peer
+  SCP, Session Control Protocol
+  SOCKS, the SOCKS internet protocol
+  ZIP, Zone Information Protocol
+  SDP, Sockets Direct Protocol
+    
+  ```
 
 ### 4. Transport layer
 * [Wiki](https://en.wikipedia.org/wiki/Transport_layer): The protocols of this layer provide end-to-end communication *services* for applications. It provides services such as *connection-oriented communication, reliability, flow control, congestion avoidance* and *multiplexing*, ... 
@@ -44,5 +76,7 @@ Open Systems Interconnection model ([OSI model](https://en.wikipedia.org/wiki/OS
   ```
 
 ### 3. Network layer
+
+
 ### 2. Data link layer
 ### 1. Physical layer

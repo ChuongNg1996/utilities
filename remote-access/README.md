@@ -119,7 +119,7 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
 # Others
   
 ## ngrok
-  source: [linuxhint](https://linuxhint.com/public_ip_address_ngrok_ssh_tunneling/)
+* source: [linuxhint](https://linuxhint.com/public_ip_address_ngrok_ssh_tunneling/)
   
   Open web service with `server_1.py`, [source](https://www.tutorialspoint.com/python/python_networking.htm), then run `ngrok`
     ```sh
@@ -128,6 +128,7 @@ Source: [phoenixnap.com-1](https://phoenixnap.com/kb/ssh-to-connect-to-remote-se
     snap install ngrok
     ngrok http 5000
     ```
+* [Build your own](https://earthly.dev/blog/build-your-own-ngrok-clone/)
 
  ## Waveshare sim7600G-H Dongle
   * Source: [phillipdavidstearns](https://github.com/phillipdavidstearns/simcom_wwan-setup), [Issues Installing SIM7600G-H 4G for Jetson Nano](https://forums.developer.nvidia.com/t/issues-installing-sim7600g-h-4g-for-jetson-nano/129826), [SIM7600X 4G DONGLE (Official)](https://www.waveshare.com/wiki/SIM7600G-H_4G_DONGLE)

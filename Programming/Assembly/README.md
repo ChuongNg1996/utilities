@@ -8,5 +8,5 @@
 * Then add the installed folder to **Path** variable: Search & open *Edit the system environment variables* -> *Advanced* tab -> Click *Environment Variables* -> In *System variables* panel looks for **Path** variable -> Click *edit*  and then **new** -> Add the path
 
 <p align="center">
-  <img src="images/path_win_var.png">
+  <img src="/images/path_win_var.png">
 </p>

@@ -32,8 +32,8 @@ For Python
   # check the Python file /Youtube_API/youtube_api_search.py
   python youtube_api_search.py
   ```
-
-
+  
+Result
 <p align="center">
   <img src="/images/yt_api_search_result.png">
 </p>

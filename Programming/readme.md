@@ -25,3 +25,8 @@
 # OTHERS
 
 * [Incompatibilities Between ISO C and ISO C++](http://david.tribble.com/text/cdiffs.htm)
+* [Linux vs. Windows Extension](https://askubuntu.com/questions/156392/what-is-the-equivalent-of-an-exe-file)
+
+<p align="center">
+  <img src="/images/linux-windows-extension.jpeg">
+</p>

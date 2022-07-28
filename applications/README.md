@@ -15,3 +15,20 @@ We can always check the key again in ** Credentials screen** (at the top left)
 <p align="center">
   <img src="/images/api-key.png">
 </p>
+
+**2. GOOGLE API CLIENT LIBRARY**
+
+For Python
+  ```sh
+  # For Anaconda
+  conda install -c conda-forge google-api-python-client 
+  # For Pip
+  pip install google-api-python-client
+  ```
+
+**3. EXAMPLE: VIDEO SEARCH**
+
+  ```sh
+  # check the Python file /Youtube_API/youtube_api_search.py
+  python youtube_api_search.py
+  ```

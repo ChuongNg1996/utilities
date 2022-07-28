@@ -12,3 +12,6 @@ Make a *Google Account* -> Go to [*Google Cloud Platform*](https://console.cloud
 
 We can always check the key again in ** Credentials screen** (at the top left)
 
+<p align="center">
+  <img src="/images/api-key.png">
+</p>

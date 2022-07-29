@@ -1,1 +1,0 @@
-    .equ    LAST_RAM_WORD,      0x007FFFFFC

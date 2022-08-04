@@ -1,0 +1,13 @@
+%% Utilities 
+%{
+
+
+
+%}
+
+ts_common = 
+
+%% PRBS (Pseudorandom binary sequence input signal)
+prbs_input_ts = timeseries(prbs_input); 
+%plot(prbs_input_ts);
+

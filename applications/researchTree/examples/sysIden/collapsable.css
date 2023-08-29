@@ -18,8 +18,10 @@ body { background: #fff; }
 .Treant .node.collapsed .collapse-switch { background: none; }
 
 .node-paper { font-weight: bold;}
+.node-name { font-weight: bold;}
 .node-author { font-style: italic;}
 
 .root { background-color: #cdf8c3; }
 .subRoot { background-color: #f7bfbf; }
-.paper { background-color: #c0fcfc; }
+.paper { background-color: #c0fcfc; width: 750px;}
+.topicNode {width: 350px;}
